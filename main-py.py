@@ -26,11 +26,11 @@ correlation.to_csv('Correlações_geral.csv')
 df_covid_pos_vacina = df_covid.iloc[:63556]
 
 # Doing the correlations after vaccination has started
-df_covid_pos_vacina.to_csv('Covid_data_pos_vac.csv')
+# df_covid_pos_vacina.to_csv('Covid_data_pos_vac.csv')
 
 correlation_pos_vac = df_covid_pos_vacina.corr()
 
-correlation_pos_vac.to_csv('Correlações_pos_vac.csv')
+# correlation_pos_vac.to_csv('Correlações_pos_vac.csv')
 
 # Configuration of correlation image
 plt.subplots(figsize=(20, 15))
